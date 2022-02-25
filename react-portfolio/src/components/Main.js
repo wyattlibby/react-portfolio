@@ -1,16 +1,19 @@
 import React from "react";
+import earth from "../images/earth.jpg";
+import mtn from "../images/mtn.jpg";
 
 function Main(){
-    return  <main class= "pg-wrapper">
+    return  <main className= "pg-wrapper">
 
-<section class="banner">
+<section className="banner" style={{backgroundImage: `url(${mtn}),
+    linear-gradient(180deg, var(--secondary) 0%, var(--primary), 100%)`}}>
         <div>
             <h2>Welcome to my portfolio</h2>
         </div>
 
     </section>
 
-        <section class="page-section" id="about">
+        <section className="page-section" id="about">
             <h2>About Me</h2>
 
             <div>
@@ -24,12 +27,12 @@ function Main(){
 
         </section>
 
-        <section class="page-section" id="work">
+        <section className="page-section" id="work">
             <h2>Work</h2>
 
-            <div class="work-container">
+            <div className="work-container">
 
-                <a href="https://wyattlibby.github.io/MTB/" class="flex-item surf">
+                <a href="https://wyattlibby.github.io/MTB/" className="flex-item surf">
                     <div>
                         <h3>MTB</h3>
                         <span>HTML/CSS/JS</span>
@@ -38,35 +41,35 @@ function Main(){
                 </a>
 
 
-                <a href="https://wyattlibby.github.io/Weather-app/" class="flex-item led">
+                <a href="https://wyattlibby.github.io/Weather-app/" className="flex-item led">
                     <div>
                         <h3>Weather-app</h3>
                         <span>HTML/CSS/JS</span>
                     </div>
                 </a>
 
-                <a href=" https://wyattlibby.github.io/project-2-group-a/" class="flex-item led">
+                <a href=" https://wyattlibby.github.io/project-2-group-a/" className="flex-item led">
                     <div>
                         <h3>Full stack project</h3>
                         <span>Javascript/CSS/Handlebars</span>
                     </div>
                 </a>
 
-                <a href="#" class="flex-item calc">
+                <a href="#" className="flex-item calc">
                     <div>
                         <h3>Calculator</h3>
                         <span>React/Javascript/CSS</span>
                     </div>
                 </a>
 
-                <a href="#" class="flex-item puzzles">
+                <a href="#" className="flex-item puzzles">
                     <div>
                         <h3>Pastel Puzzles</h3>
                         <span>MERN Stack</span>
                     </div>
                 </a>
 
-                <a href="#" class="flex-item run">
+                <a href="#" className="flex-item run">
                     <div>
                         <h3>Run Buddy</h3>
                         <span>HTML/CSS</span>
@@ -76,7 +79,7 @@ function Main(){
 
         </section>
 
-        <section class="page-section contact" id="contact">
+        <section className="page-section contact" id="contact">
             <h2>Contact Me</h2>
             <div>
                 <address>
