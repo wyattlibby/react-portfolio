@@ -95,8 +95,8 @@ main {
 
 .banner {
   background-color: #445878;
-  /* background-image: url(".assets/images/mtn.jpg"),
-    linear-gradient(180deg, var(--secondary) 0%, var(--primary), 100%); */
+  background-image: url("./images/mtn.jpg");
+    /* linear-gradient(180deg, var(--secondary) 0%, var(--primary), 100%); */
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -180,8 +180,11 @@ main {
 }
 
 .flex-item:first-child {
+  background-image: url("./images/earth.jpg");
   min-height: 400px;
   flex-basis: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .flex-item:hover {
@@ -232,22 +235,22 @@ main {
   color: var(--secondary);
 }
 
-/*images loaded to html*/
-/* .surf {
-  background-image: url("../assets/images/earth.jpg");
+/* images loaded to html*/ */
+ .surf {
+  background-image: url("./images/mtn.jpg");
 }
 .led {
-  background-image: url("../assets/images/earth.jpg");
+  background-image: url("./images/earth.jpg");
 }
 .calc {
-  background-image: url("../assets/images/earth.jpg");
+  background-image: url("./images/earth.jpg");
 }
 .puzzles {
-  background-image: url("../assets/images/earth.jpg");
+  background-image: url("./images/earth.jpg");
 }
 .run {
-  background-image: url("../assets/images/earth.jpg");
-} */
+  background-image: url("./images/earth.jpg");
+}
 
 /*media queries*/
 /* Cards are split into two columns at 992px or smaller */

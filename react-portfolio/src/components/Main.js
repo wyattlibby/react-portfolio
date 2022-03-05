@@ -5,8 +5,7 @@ import mtn from "../images/mtn.jpg";
 function Main(){
     return  <main className= "pg-wrapper">
 
-<section className="banner" style={{backgroundImage: `url(${mtn}),
-    linear-gradient(180deg, var(--secondary) 0%, var(--primary), 100%)`}}>
+<section className="banner">
         <div>
             <h2>Welcome to my portfolio</h2>
         </div>
