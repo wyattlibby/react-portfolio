@@ -96,7 +96,7 @@ main {
 .banner {
   background-color: #445878;
   background-image: url("./images/mtn.jpg");
-    /* linear-gradient(180deg, var(--secondary) 0%, var(--primary), 100%); */
+  /* linear-gradient(180deg, var(--secondary) 0%, var(--primary), 100%); */
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -235,8 +235,8 @@ main {
   color: var(--secondary);
 }
 
-/* images loaded to html*/ */
- .surf {
+/* images loaded to html*/
+.surf {
   background-image: url("./images/mtn.jpg");
 }
 .led {
@@ -268,15 +268,13 @@ main {
     background: #8ac4ff;
   }
   nav a {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
   .banner h2 {
     font-size: 20px;
     margin-bottom: 40px;
   }
   .flex-item div {
-    font-size: .75rem;
-
+    font-size: 0.75rem;
   }
-
 }
